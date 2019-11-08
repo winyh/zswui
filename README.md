@@ -6,9 +6,32 @@
 npm install wui
 ```
 
+### 打包发布
+
+```
+npm run lib
+
+npm login
+
+npm publish
+```
+
 ### 引用示例
 ```
-demo
+import React, { Component } from 'react';
+import { Button } from "wui";
+
+class App extends Component {
+  render(){
+    return (
+      <div className="main">
+        <Button> Hi, Boy! </Button>
+      </div>
+    );
+  }
+}
+
+export default App;
 ```
 
 ### Todo List
@@ -19,7 +42,7 @@ demo
 	* Grid
 	* Flex
 * Navigation（导航）
-	* 
+	* Menu（菜单）
 * Inputs（数据录入）
 	* Checkbox（复选框）
 	* Radio（单选按钮）

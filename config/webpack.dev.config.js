@@ -9,9 +9,7 @@ module.exports = {
     entry: path.join(__dirname, "../src/index.js"),
     output: {
         filename: 'index.js',
-        path: path.resolve(__dirname, '../dist'),
-        // library: 'wui',
-        // libraryTarget: 'umd',
+        path: path.resolve(__dirname, '../dist')
     },
     module: {
         rules: [
@@ -52,7 +50,7 @@ module.exports = {
         new ExtractTextPlugin('wui.css'),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: '自定义title',
+            title: 'dev 开发环境',
             template: path.join(__dirname, '../public/index.html')
         })
     ]

@@ -1,15 +1,15 @@
 {
-  "name": "wui",
-  "version": "0.0.1",
+  "name": "zswui",
+  "version": "0.0.3",
   "description": "React UI Library",
   "private": false,
-  "main": "lib/wui.umd.js",
+  "main": "lib/wui.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "webpack --config ./config/webpack.config.js",
-    "dev": "webpack-dev-server --open",
+    "start": "webpack --config ./config/webpack.pro.config.js",
+    "dev": "webpack --config ./config/webpack.dev.config.js",
     "lib": "webpack --config ./config/webpack.config.js",
     "test": "npm run test"
   },
@@ -38,6 +38,8 @@
     "css-loader": "^3.2.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

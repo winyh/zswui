@@ -40,19 +40,13 @@ module.exports = {
             }
         ],
     },
-    devServer: {
-        contentBase: path.join(__dirname, '../public'),
-        port: 9000,
-        open: true,
-        hot: true // HotModuleReplacementPlugin
-    },
     plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new ExtractTextPlugin('wui.css'),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: '自定义title',
+            title: 'lib发布',
             template: path.join(__dirname, '../public/index.html')
         })
     ]

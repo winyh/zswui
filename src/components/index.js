@@ -1,3 +1,1 @@
-window.onload = function(){
-	console.log("winyh")
-}
+export { default as Button } from './button';
