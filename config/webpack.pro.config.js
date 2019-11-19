@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: path.join(__dirname, "../src/index.js"),
     output: {
         filename: 'index.js',
@@ -38,16 +38,10 @@ module.exports = {
             }
         ],
     },
-    devServer: {
-        contentBase: path.join(__dirname, '../public'),
-        port: 9000,
-        open: true,
-        hot: true // HotModuleReplacementPlugin
-    },
     plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
-        new ExtractTextPlugin('wui.css'),
+        new ExtractTextPlugin('zswui.css'),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'pro 生产环境',

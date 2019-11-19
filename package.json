@@ -3,19 +3,19 @@
   "version": "0.0.3",
   "description": "React UI Library",
   "private": false,
-  "main": "lib/wui.js",
+  "main": "lib/zswui.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "webpack --config ./config/webpack.pro.config.js",
-    "dev": "webpack --config ./config/webpack.dev.config.js",
+    "start": "webpack-dev-server -d --config ./config/webpack.dev.config.js",
+    "build": "webpack --config ./config/webpack.pro.config.js",
     "lib": "webpack --config ./config/webpack.config.js",
     "test": "npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winyh/wui.git"
+    "url": "git+https://github.com/winyh/zswui.git"
   },
   "keywords": [
     "React",
@@ -26,9 +26,9 @@
   "author": "winyh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/winyh/wui/issues"
+    "url": "https://github.com/winyh/zswui/issues"
   },
-  "homepage": "https://github.com/winyh/wui#readme",
+  "homepage": "https://github.com/winyh/zswui#readme",
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
@@ -41,8 +41,8 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",

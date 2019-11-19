@@ -8,9 +8,9 @@ module.exports = {
     mode: 'development',
     entry: path.join(__dirname, "../src/components/index.js"),
     output: {
-        filename: 'wui.js',
+        filename: 'zswui.js',
         path: path.resolve(__dirname, '../lib'),
-        library: 'wui',
+        library: 'zswui',
         libraryTarget: 'umd',
     },
     module: {
@@ -43,7 +43,7 @@ module.exports = {
     plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
-        new ExtractTextPlugin('wui.css'),
+        new ExtractTextPlugin('zswui.css'),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'lib发布',

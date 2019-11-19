@@ -47,7 +47,7 @@ module.exports = {
     plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
-        new ExtractTextPlugin('wui.css'),
+        new ExtractTextPlugin('zswui.css'),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'dev 开发环境',

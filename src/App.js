@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from "./components"
 import './App.scss';
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <div className="main">
         Hi, Boy!
+        <Button>winyh</Button>
       </div>
     );
   }
