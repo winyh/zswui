@@ -1,9 +1,9 @@
-# wui
+# zswui
 基于 React 技术栈 封装的 UI 组件库
 
 ### 安装
 ```
-npm install wui
+npm install zswui
 ```
 
 ### 打包发布
@@ -19,7 +19,7 @@ npm publish
 ### 引用示例
 ```
 import React, { Component } from 'react';
-import { Button } from "wui";
+import { Button } from "zswui";
 
 class App extends Component {
   render(){
