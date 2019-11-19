@@ -4,6 +4,8 @@ logs
 **/*.backup.*
 **/*.back.*
 
+dist
+lib
 node_modules
 
 *.sublime*
