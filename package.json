@@ -11,6 +11,7 @@
     "start": "webpack-dev-server -d --config ./config/webpack.dev.config.js",
     "build": "webpack --config ./config/webpack.pro.config.js",
     "lib": "webpack --config ./config/webpack.config.js",
+    "deploy": "npm run build && gh-pages -d ./dist",
     "test": "npm run test"
   },
   "repository": {
@@ -29,6 +30,9 @@
     "url": "https://github.com/winyh/zswui/issues"
   },
   "homepage": "https://github.com/winyh/zswui#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
@@ -37,6 +41,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
