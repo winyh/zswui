@@ -1,4 +1,14 @@
 # zswui
+
+[](https://img.shields.io/npm/l/zswui)
+[](https://img.shields.io/npm/v/zswui)
+[](https://img.shields.io/npm/dm/zswui)
+[](https://img.shields.io/github/issues/winyh/zswui)
+[](https://img.shields.io/github/languages/code-size/winyh/zswui)
+[](https://img.shields.io/github/stars/winyh/zswui)
+[](https://img.shields.io/github/last-commit/winyh/zswui)
+
+
 基于 React 技术栈 封装的 UI 组件库
 
 ### 安装
@@ -80,6 +90,8 @@ export default App;
 [React-weui](http://weui.github.io/react-weui/#/)
 
 [React-grid](https://github.com/STRML/react-grid-layout)
+
+[徽章](https://shields.io/)
 
 
 
