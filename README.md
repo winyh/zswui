@@ -6,9 +6,9 @@
 
 <h1 align="center">zswui</h1>
 
-<p align="center">
+<p align="center">从零开始构建的 React UI 组件库, 代号：雪人</p>
 
-从零开始构建的 React UI 组件库
+<p align="center">
 
 ![](https://img.shields.io/npm/l/zswui) ![](https://img.shields.io/npm/v/zswui) ![](https://img.shields.io/npm/dm/zswui) ![](https://img.shields.io/github/issues/winyh/zswui) ![](https://img.shields.io/github/languages/code-size/winyh/zswui) ![](https://img.shields.io/github/stars/winyh/zswui) ![](https://img.shields.io/github/last-commit/winyh/zswui)
 
