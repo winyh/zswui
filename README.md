@@ -15,7 +15,7 @@
 </div>
 
 
-从零开始构建的 React UI组件库，实现了组件开发测试预览，文档撰写，并打包发布到 npm 一些列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI组件库，实现了组件开发测试预览，文档撰写，并打包发布到npm一系列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -60,32 +60,6 @@ winyh: github 的 username
 zswui: github 的 仓库名
 ```
 
-### 目录结构说明
-`.storybook`  storybook 配置文件目录
-
-`config` webpack 配置文件目录
-
-`dist` 生产环境打包后生成的目录
-
-`lib` 发布前打包后生成的目录
-
-`public` 公共目录
-
-`src` 开发主目录
-
-components 组件库目录
-stories 组件开发测试目录
-
-`.babelrc` babel配置文件
-
-`.gitignore` git忽略配置文件
-
-`.npmignore` npm忽略文件
-
-`package.json` 包依赖和脚本配置文件
-
-`README.md` 说明文档
-
 ### 贡献代码
 组件都在 components 目录下，单个组件用单个目录存放，在 components 目录下的 index.js 文件中集中对外抛出
 
@@ -126,6 +100,10 @@ npm run storybook
 | [Grommet](https://v2.grommet.io/) | 风格偏圆润 |
 | [React-weui](http://weui.github.io/react-weui/#/) | 微信体系UI风格 |
 | [React-grid](https://github.com/STRML/react-grid-layout)  | 布局参考样式 |
+
+
+### License
+zswui is [MIT licensed](https://opensource.org/licenses/MIT).
 
 
 
