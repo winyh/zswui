@@ -122,19 +122,11 @@ npm run storybook
 | [Element](https://www.iviewui.com/)  | 基于 Vue.js 的高质量UI 组件库 |
 | [Bootstrap](https://getbootstrap.com/)  | 响应式，移动优先的组件库和规范 |
 | [Material-ui](https://material-ui.com/zh/) | 基于 Material Design 设计系统 |
-| [Elastic](https://elastic.github.io/eui/#/)  | ... |
-| [Semantic-ui](https://react.semantic-ui.com/)  | ... |
-| [Belle](http://nikgraf.github.io/belle/#/?_k=niiywd)  | ... |
-| [BluePrint](https://blueprintjs.com/)  | ... |
-| [Grommet](https://v2.grommet.io/) | ... |
-| [Baifendian](http://ui.baifendian.com/)  | ... |
-| [React-weui](http://weui.github.io/react-weui/#/) | ... |
-| [React-grid](https://github.com/STRML/react-grid-layout)  | ... |
+| [Semantic-ui](https://react.semantic-ui.com/)  | 偏向于扁平简洁大气风格 |
+| [Grommet](https://v2.grommet.io/) | 风格偏圆润 |
+| [React-weui](http://weui.github.io/react-weui/#/) | 微信体系UI风格 |
+| [React-grid](https://github.com/STRML/react-grid-layout)  | 布局参考样式 |
 
-
-### 徽章生成
-
-[徽章](https://shields.io/)
 
 
 
