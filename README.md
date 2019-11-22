@@ -88,6 +88,18 @@ components 组件库目录
 
 可参考 button 组件
 
+### 组件开发测试
+引入了 [storybook](https://storybook.js.org/) 这个组件开发测试工具
+以 button 组件为例
+开发测试文件在src/stories/button/.stories.js
+
+storybook 工具环境搭建请查看[wiki](https://github.com/winyh/zswui/wiki)
+
+启动storybook工具（端口随机）
+```
+npm run storybook
+```
+
 
 ### Todo List
 * General（通用）
