@@ -1,8 +1,14 @@
+<p align="center">
+  <a href="https://winyh.github.io/zswui/">
+    <img width="200" src="https://github.com/winyh/zswui/blob/master/public/snowman.svg">
+  </a>
+</p>
+
 <h1 align="center">zswui</h1>
 
 <p align="center">
 
-	从零开始构建的 React UI 组件库
+从零开始构建的 React UI 组件库
 
 ![](https://img.shields.io/npm/l/zswui) ![](https://img.shields.io/npm/v/zswui) ![](https://img.shields.io/npm/dm/zswui) ![](https://img.shields.io/github/issues/winyh/zswui) ![](https://img.shields.io/github/languages/code-size/winyh/zswui) ![](https://img.shields.io/github/stars/winyh/zswui) ![](https://img.shields.io/github/last-commit/winyh/zswui)
 
