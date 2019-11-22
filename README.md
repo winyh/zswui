@@ -1,9 +1,15 @@
-# zswui
+<h1 align="center">zswui</h1>
+
+<p align="center">
+
+	从零开始构建的 React UI 组件库
 
 ![](https://img.shields.io/npm/l/zswui) ![](https://img.shields.io/npm/v/zswui) ![](https://img.shields.io/npm/dm/zswui) ![](https://img.shields.io/github/issues/winyh/zswui) ![](https://img.shields.io/github/languages/code-size/winyh/zswui) ![](https://img.shields.io/github/stars/winyh/zswui) ![](https://img.shields.io/github/last-commit/winyh/zswui)
 
+</p>
 
-从零开始构建的 React UI 组件库，并打包发布到 npm [wiki](https://github.com/winyh/zswui/wiki)
+
+从零开始构建的 React UI 组件库，并打包发布到 npm ，教程请查看[wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -59,7 +65,7 @@ zswui: github 的 仓库名
 
 `src` 开发主目录
 
-	`components` 组件库目录
+components 组件库目录
 
 `.babelrc` babel配置文件
 
