@@ -8,14 +8,14 @@
 
 <p align="center">React UI组件库  代号：雪人</p>
 
-<p align="center">
+<div align="center">
 
 ![](https://img.shields.io/npm/l/zswui) ![](https://img.shields.io/npm/v/zswui) ![](https://img.shields.io/npm/dm/zswui) ![](https://img.shields.io/github/issues/winyh/zswui) ![](https://img.shields.io/github/languages/code-size/winyh/zswui) ![](https://img.shields.io/github/stars/winyh/zswui) ![](https://img.shields.io/github/last-commit/winyh/zswui)
 
-</p>
+</div>
 
 
-从零开始构建的 React UI 组件库，实现了组件开发测试预览，文档撰写，并打包发布到 npm 一些列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI组件库，实现了组件开发测试预览，文档撰写，并打包发布到 npm 一些列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -61,6 +61,8 @@ zswui: github 的 仓库名
 ```
 
 ### 目录结构说明
+`.storybook`  storybook 配置文件目录
+
 `config` webpack 配置文件目录
 
 `dist` 生产环境打包后生成的目录
@@ -72,6 +74,7 @@ zswui: github 的 仓库名
 `src` 开发主目录
 
 components 组件库目录
+stories 组件开发测试目录
 
 `.babelrc` babel配置文件
 
