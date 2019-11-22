@@ -6,16 +6,14 @@
 
 <h1 align="center">zswui</h1>
 
-<p align="center">从零开始构建的 React UI 组件库, 代号：雪人</p>
+<p align="center">React UI组件库  代号：雪人</p>
 
 <p align="center">
-
 ![](https://img.shields.io/npm/l/zswui) ![](https://img.shields.io/npm/v/zswui) ![](https://img.shields.io/npm/dm/zswui) ![](https://img.shields.io/github/issues/winyh/zswui) ![](https://img.shields.io/github/languages/code-size/winyh/zswui) ![](https://img.shields.io/github/stars/winyh/zswui) ![](https://img.shields.io/github/last-commit/winyh/zswui)
-
 </p>
 
 
-从零开始构建的 React UI 组件库，并打包发布到 npm ，教程请查看[wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI 组件库，实现了组件开发测试预览，文档撰写，并打包发布到 npm 一些列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -102,24 +100,11 @@ npm run storybook
 
 
 ### Todo List
-* General（通用）
-	* Button（按钮）
-	* Icon（图标）
-* Layout（布局）
-	* Grid
-	* Flex
-* Navigation（导航）
-	* Menu（菜单）
-* Inputs（数据录入）
-	* Checkbox（复选框）
-	* Radio（单选按钮）
-	* Select（选择器）
-	* Slider（滑块）
-	* Switch（开关）
-* Data Display（数据展示）
-	* Avatar（头像）
-	* Badge（徽章）
-	* Chip（纸片）
+
+* 用 Typescript 改写
+* 实现 Vue 版本
+* 中台模板 Zswui Admin
+* 基于这个库实现可视化拖拽构建工具   
 
 
 ### 参考组件库
@@ -129,6 +114,7 @@ npm run storybook
 | [Ant Design](https://ant.design/index-cn)  | 服务于企业级产品的设计体系 |
 | [Fusion](https://fusion.design/)  | 构建一套产品化设计系统和物料 |
 | [Element](https://element.eleme.cn/2.0/#/zh-CN)  | 基于 Vue 2.0 PC端网站快速成型工具 |
+| [Element](https://www.iviewui.com/)  | 基于 Vue.js 的高质量UI 组件库 |
 | [Bootstrap](https://getbootstrap.com/)  | 响应式，移动优先的组件库和规范 |
 | [Material-ui](https://material-ui.com/zh/) | 基于 Material Design 设计系统 |
 | [Elastic](https://elastic.github.io/eui/#/)  | ... |
