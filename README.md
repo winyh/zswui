@@ -38,7 +38,7 @@ class App extends Component {
 export default App;
 ```
 
-### demo
+### demo(文档待完善)
 
 [https://winyh.github.io/zswui](https://winyh.github.io/zswui/)
 
