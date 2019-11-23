@@ -1,6 +1,6 @@
 {
   "name": "zswui",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "React UI Library",
   "private": false,
   "main": "lib/zswui.js",

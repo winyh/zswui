@@ -15,7 +15,7 @@
 </div>
 
 
-从零开始构建的 React UI组件库，实现了组件开发测试预览，文档撰写，并打包发布到npm一系列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI组件库，实现了组件开发测试预览，文档，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -59,23 +59,22 @@ export default App;
 
 [https://winyh.github.io/zswui](https://winyh.github.io/zswui/)
 
-```
-winyh: github 的 username
+winyh, zswui: github 的 username 和 仓库名
 
-zswui: github 的 仓库名
-```
 
 ### 贡献代码
 组件都在 components 目录下，单个组件用单个目录存放，在 components 目录下的 index.js 文件中集中对外抛出
 
 可参考 button 组件
 
+贡献代码规范请查看 [wiki](https://github.com/winyh/zswui/wiki)
+
 ### 组件开发测试
 引入了 [storybook](https://storybook.js.org/) 这个组件开发测试工具
 以 button 组件为例
 开发测试文件在src/stories/button/.stories.js
 
-storybook 工具环境搭建请查看[wiki](https://github.com/winyh/zswui/wiki)
+storybook 工具环境搭建请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 启动storybook工具（端口随机）
 ```
@@ -85,10 +84,11 @@ npm run storybook
 
 ### Todo List
 
+* 组件实现按需加载
 * 用 Typescript 改写
 * 实现 Vue 版本
 * 中台模板 Zswui Admin
-* 基于这个库实现可视化拖拽构建中台 [Vuegg](https://github.com/vuegg/vuegg) [云凤蝶](https://www.yunfengdie.com/) 
+* 基于这个库实现可视化拖拽构建中台 [Vuegg](https://github.com/vuegg/vuegg) | [云凤蝶](https://www.yunfengdie.com/) 
 
 
 ### 参考组件库
