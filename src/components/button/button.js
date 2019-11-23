@@ -14,7 +14,7 @@ class Button extends Component {
 		const { children } = this.props
 		return(
 			<button className="button">
-				{ text } { children }
+				<i className="fas fa-spinner"></i> { text } { children }
 			</button>
 		)
 	}

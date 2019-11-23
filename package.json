@@ -1,6 +1,6 @@
 {
   "name": "zswui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React UI Library",
   "private": false,
   "main": "lib/zswui.js",
@@ -43,6 +43,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.3.0",
     "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.10.3",
@@ -52,6 +53,7 @@
     "react-dom": "^16.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
+    "url-loader": "^2.3.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }

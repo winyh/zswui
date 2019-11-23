@@ -34,6 +34,26 @@ module.exports = {
                 })
             },
             {
+                test: /\.(png|jpg|gif|svg)$/,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 8192
+                    }
+                  }
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg|woff|woff2|eot|otf|ttf)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {}
+                  }
+                ]
+            },
+            {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: "babel-loader"
