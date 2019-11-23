@@ -22,6 +22,11 @@
 npm install zswui
 ```
 
+### 引入样式
+```
+import "zswui/lib/zswui.css"
+```
+
 ### 打包发布
 
 ```

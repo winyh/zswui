@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Icon from "../icon"
 import "./style.less"
 
 class Button extends Component {
@@ -15,8 +14,8 @@ class Button extends Component {
 		const { text } = this.state
 		const { children } = this.props
 		return(
-			<button className="button">
-				<FontAwesomeIcon icon={faCoffee} /> { text } { children }
+			<button className="button"> 
+				<Icon type="coffee" /> { text } { children }
 			</button>
 		)
 	}
