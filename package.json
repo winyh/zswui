@@ -1,6 +1,6 @@
 {
   "name": "zswui",
-  "version": "0.0.4",
+  "version": "0.0.42",
   "description": "React UI Library",
   "private": false,
   "main": "lib/zswui.js",
@@ -31,9 +31,6 @@
     "url": "https://github.com/winyh/zswui/issues"
   },
   "homepage": "https://github.com/winyh/zswui#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",

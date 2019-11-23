@@ -17,14 +17,6 @@
 
 从零开始构建的 React UI组件库，实现了组件开发测试预览，文档撰写，并打包发布到npm一系列功能，教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
-astx 名称由来： AST 是抽象语法树的意思，X 代表无限拓展可能性。
-
-个人预测这种类型平台的发展方向：可视搭建工具 -> 云编辑 -> AI代码自动生成 
-
-
-代码自动生成最深层次的核心原理是 AST ,辅助是 DSL
-
-
 ### 安装
 ```
 npm install zswui

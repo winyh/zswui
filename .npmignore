@@ -10,4 +10,5 @@
 .wafpickle-*
 config.gypi
 CVS
+dist
 npm-debug.log
