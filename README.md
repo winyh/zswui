@@ -15,7 +15,7 @@
 </div>
 
 
-从零开始构建的 React UI组件库，实现了组件开发测试预览，文档，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的React UI组件库，实现了组件开发测试预览，文档撰写，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -59,7 +59,7 @@ export default App;
 
 [https://winyh.github.io/zswui](https://winyh.github.io/zswui/)
 
-winyh, zswui: github 的 username 和 仓库名
+[ winyh ], [ zswui ] 分别为github的 username 和仓库名
 
 
 ### 贡献代码
@@ -70,9 +70,9 @@ winyh, zswui: github 的 username 和 仓库名
 贡献代码规范请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 组件开发测试
-引入了 [storybook](https://storybook.js.org/) 这个组件开发测试工具
-以 button 组件为例
-开发测试文件在src/stories/button/.stories.js
+引入了 [storybook](https://storybook.js.org/) 组件开发测试工具
+
+以 button 组件为例，开发测试文件在`src/stories/button/.stories.js`
 
 storybook 工具环境搭建请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
