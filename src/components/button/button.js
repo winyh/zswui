@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import classNames from "classNames";
+import PropTypes from 'prop-types';
 import Icon from "../icon"
 import "./style.less"
 
@@ -10,15 +12,26 @@ class Button extends Component {
 	    };
 	}
 
+	handleClick = () => {
+		const { onClick } = this.props
+		if(onClick){
+			onClick()
+		}
+	}
+
 	render(){
 		const { text } = this.state
-		const { children } = this.props
+		const { children, onClick } = this.props
 		return(
-			<button className="button"> 
+			<button className="button" onClick={this.handleClick}> 
 				<Icon type="coffee" /> { text } { children }
 			</button>
 		)
 	}
 }
+
+Button.propTypes = {
+  onClick: PropTypes.func
+};
 
 export default Button;
