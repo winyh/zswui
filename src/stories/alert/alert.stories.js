@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@storybook/react/demo';
 import { Alert } from '../../components';
 
 export default { title: 'Alert' };

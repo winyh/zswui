@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@storybook/react/demo';
 import { Icon } from '../../components';
 
 export default { title: 'Icon' };
