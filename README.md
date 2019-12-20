@@ -86,7 +86,6 @@ npm run storybook
 
 * 组件实现按需加载
 * 用 Typescript 改写
-* 实现 Vue 版本
 * 中台模板 Zswui Admin
 * 基于这个库实现可视化拖拽构建中台 [Vuegg](https://github.com/vuegg/vuegg) | [云凤蝶](https://www.yunfengdie.com/) 
 
@@ -96,6 +95,7 @@ npm run storybook
 |  组件库   | 说明  |
 |  ----  | ----  |
 | [Ant Design](https://ant.design/index-cn)  | 服务于企业级产品的设计体系 |
+| [Rsuite](https://rsuitejs.com/)  | UI规范参考* |
 | [Fusion](https://fusion.design/)  | 构建一套产品化设计系统和物料 |
 | [Element](https://element.eleme.cn/2.0/#/zh-CN)  | 基于 Vue 2.0 PC端网站快速成型工具 |
 | [iview](https://www.iviewui.com/)  | 基于 Vue.js 的高质量UI 组件库 |
@@ -106,6 +106,7 @@ npm run storybook
 | [Grommet](https://v2.grommet.io/) | 风格偏圆润 |
 | [React-weui](http://weui.github.io/react-weui/#/) | 微信体系UI风格 |
 | [React-grid](https://github.com/STRML/react-grid-layout)  | 布局参考样式 |
+
 
 
 ### License
