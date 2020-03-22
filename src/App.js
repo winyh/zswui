@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="main">
         Hi, Boy!
-        <Button type="primary" onClick={this.handle}>winyh</Button>
+        <Button type="" onClick={this.handle}>winyh</Button>
       </div>
     );
   }

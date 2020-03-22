@@ -15,7 +15,7 @@
 </div>
 
 
-从零开始构建的React UI组件库，实现了组件开发测试预览，文档撰写，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的React UI组件库.实现了组件开发测试预览，文档撰写，从零配置webpack，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 ```
@@ -65,7 +65,7 @@ export default App;
 ### 贡献代码
 组件都在 components 目录下，单个组件用单个目录存放，在 components 目录下的 index.js 文件中集中对外抛出
 
-可参考 button 组件
+可参考 button 组件 
 
 贡献代码规范请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
