@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
-import { Button } from "./components"
+import { Button, Card } from "./components"
 import './App.scss';
 
 class App extends Component {
 
   handle = () => {
   	console.log(222)
+    alert(111)
   }
+
   render(){
     return (
       <div className="main">
         Hi, Boy!
-        <Button onClick={this.handle}>winyh</Button>
+        <Button type="primary" onClick={this.handle}>winyh</Button>
       </div>
     );
   }

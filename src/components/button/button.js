@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classNames from "classNames";
+import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import Icon from "../icon"
 import "./style.less"
@@ -21,9 +21,10 @@ class Button extends Component {
 
 	render(){
 		const { text } = this.state
-		const { children, onClick } = this.props
+		const { children, type, onClick } = this.props
+		const cls = classNames('zsw-btn', type)
 		return(
-			<button className="button" onClick={this.handleClick}> 
+			<button className={cls} onClick={this.handleClick}> 
 				<Icon type="coffee" /> { text } { children }
 			</button>
 		)
@@ -31,6 +32,7 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+  type:PropTypes.string,
   onClick: PropTypes.func
 };
 
