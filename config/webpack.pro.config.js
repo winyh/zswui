@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
@@ -62,6 +64,17 @@ module.exports = {
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new ExtractTextPlugin('zswui.css'),
+        new UglifyJsPlugin(),
+        new OptimizeCSSAssetsPlugin({
+            assetNameRegExp: /\.css\.*(?!.*map)/g,  //注意不要写成 /\.css$/g
+            cssProcessor: require('cssnano'), // cssnano 集成了autoprefixer的功能
+            cssProcessorOptions: {
+                discardComments: { removeAll: true },// 避免 cssnano 重新计算 z-index
+                safe: true,
+                autoprefixer: false // 关闭autoprefixer功能
+            },
+            canPrint: true
+        }),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'pro 生产环境',
