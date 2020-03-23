@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import Icon from "../icon"
+import { PREFIX } from "../_util"
 import "./style.less"
 
 class Button extends Component {
@@ -21,10 +22,11 @@ class Button extends Component {
 
 	render(){
 		const { text } = this.state
-		const { children, type, onClick } = this.props
-		const cls = classNames('zsw-btn', type)
+		const { children, type, disabled, onClick } = this.props
+		const cls = classNames(`${PREFIX}-btn`, `${PREFIX}-${type}`)
+
 		return(
-			<button className={cls} onClick={this.handleClick}> 
+			<button className={cls} onClick={this.handleClick} disabled={disabled}> 
 				<Icon type="coffee" /> { text } { children }
 			</button>
 		)
