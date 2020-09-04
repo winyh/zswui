@@ -14,15 +14,16 @@
 
 </div>
 
-
-从零开始构建的React UI组件库.实现了组件开发测试预览，文档撰写，从零配置webpack，打包发布到npm一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI 组件库.实现了组件开发测试预览，文档撰写，从零配置 webpack，打包发布到 npm 一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
+
 ```
 npm install zswui
 ```
 
 ### 引入样式
+
 ```
 import "zswui/lib/zswui.css"
 ```
@@ -38,6 +39,7 @@ npm publish
 ```
 
 ### 引用示例
+
 ```
 import React, { Component } from 'react';
 import { Button } from "zswui";
@@ -59,68 +61,40 @@ export default App;
 
 [https://winyh.github.io/zswui](https://winyh.github.io/zswui/)
 
-[ winyh ], [ zswui ] 分别为github的 username 和仓库名
-
+[ winyh ], [ zswui ] 分别为 github 的 username 和仓库名
 
 ### 贡献代码
+
 组件都在 components 目录下，单个组件用单个目录存放，在 components 目录下的 index.js 文件中集中对外抛出
 
-可参考 button 组件 
+可参考 button 组件
 
 贡献代码规范请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
-### 组件开发测试
-引入了 [storybook](https://storybook.js.org/) 组件开发测试工具
-
-以 button 组件为例，开发测试文件在`src/stories/button/.stories.js`
-
-storybook 工具环境搭建请查看 [wiki](https://github.com/winyh/zswui/wiki)
-
-启动storybook工具（端口随机）
-```
-npm run storybook
-```
-
-
 ### Todo List
 
-* 组件实现按需加载
-* 用 Typescript 改写
-* 中台模板 Zswui Admin
-* 基于这个库实现可视化拖拽构建中台 [Vuegg](https://github.com/vuegg/vuegg) | [云凤蝶](https://www.yunfengdie.com/) 
-
+- 组件实现按需加载
+- 用 Typescript 改写
+- 中台模板 Zswui Admin
+- 基于这个库实现可视化拖拽构建中台 [Vuegg](https://github.com/vuegg/vuegg) | [云凤蝶](https://www.yunfengdie.com/)
 
 ### 参考组件库
 
-|  组件库   | 说明  |
-|  ----  | ----  |
-| [Ant Design](https://ant.design/index-cn)  | 服务于企业级产品的设计体系 |
-| [Rsuite](https://rsuitejs.com/)  | UI规范参考* |
-| [Fusion](https://fusion.design/)  | 构建一套产品化设计系统和物料 |
-| [Element](https://element.eleme.cn/2.0/#/zh-CN)  | 基于 Vue 2.0 PC端网站快速成型工具 |
-| [iview](https://www.iviewui.com/)  | 基于 Vue.js 的高质量UI 组件库 |
-| [Vuetify](https://vuetifyjs.com/zh-Hans/)  | 偏向于扁平简洁大气风格 |
-| [Bootstrap](https://getbootstrap.com/)  | 响应式，移动优先的组件库和规范 |
-| [Material-ui](https://material-ui.com/zh/) | 基于 Material Design 设计系统 |
-| [Semantic-ui](https://react.semantic-ui.com/)  | 偏向于扁平简洁大气风格 |
-| [Grommet](https://v2.grommet.io/) | 风格偏圆润 |
-| [React-weui](http://weui.github.io/react-weui/#/) | 微信体系UI风格 |
-| [React-grid](https://github.com/STRML/react-grid-layout)  | 布局参考样式 |
-
-
+| 组件库                                                   | 说明                               |
+| -------------------------------------------------------- | ---------------------------------- |
+| [Ant Design](https://ant.design/index-cn)                | 服务于企业级产品的设计体系         |
+| [Rsuite](https://rsuitejs.com/)                          | UI 规范参考\*                      |
+| [Fusion](https://fusion.design/)                         | 构建一套产品化设计系统和物料       |
+| [Element](https://element.eleme.cn/2.0/#/zh-CN)          | 基于 Vue 2.0 PC 端网站快速成型工具 |
+| [iview](https://www.iviewui.com/)                        | 基于 Vue.js 的高质量 UI 组件库     |
+| [Vuetify](https://vuetifyjs.com/zh-Hans/)                | 偏向于扁平简洁大气风格             |
+| [Bootstrap](https://getbootstrap.com/)                   | 响应式，移动优先的组件库和规范     |
+| [Material-ui](https://material-ui.com/zh/)               | 基于 Material Design 设计系统      |
+| [Semantic-ui](https://react.semantic-ui.com/)            | 偏向于扁平简洁大气风格             |
+| [Grommet](https://v2.grommet.io/)                        | 风格偏圆润                         |
+| [React-weui](http://weui.github.io/react-weui/#/)        | 微信体系 UI 风格                   |
+| [React-grid](https://github.com/STRML/react-grid-layout) | 布局参考样式                       |
 
 ### License
+
 zswui is [MIT licensed](https://opensource.org/licenses/MIT).
-
-
-
-
-
-
-
-
-
-
-
-
-
