@@ -1,16 +1,15 @@
 const path = require("path");
 const webpack = require("webpack");
+const WebpackBar = require("webpackbar");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const WebpackBar = require("webpackbar");
 
 module.exports = {
-  entry: path.join(__dirname, "../components/index.js"),
+  mode: "production",
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "../lib"),
-    filename: "zswui.js",
-    library: "zswui",
-    libraryTarget: "umd",
+    path: path.resolve(__dirname, "../dist"),
+    filename: "index.js",
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".jsx"],
@@ -65,7 +64,7 @@ module.exports = {
     new WebpackBar(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "lib 创建 library",
+      title: "prod 生成环境",
       template: path.resolve(__dirname, "../public/index.html"),
     }),
   ],
