@@ -64,7 +64,7 @@ module.exports = {
     new WebpackBar(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "prod 生成环境",
+      title: "prod 生产环境",
       template: path.resolve(__dirname, "../public/index.html"),
     }),
   ],

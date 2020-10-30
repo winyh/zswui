@@ -19,7 +19,7 @@ class Button extends Component {
 
   render() {
     const { children, type, disabled, onClick } = this.props;
-    const cls = classNames(`${PREFIX}-btn`, `${PREFIX}-${type}`);
+    const cls = classNames(`${PREFIX}-btn`, `${PREFIX}-btn-${type}`);
 
     return (
       <button className={cls} onClick={this.handleClick} disabled={disabled}>
@@ -31,7 +31,7 @@ class Button extends Component {
 
 // 指定 props 的默认值：
 Button.defaultProps = {
-  type: "primary",
+  type: "default",
 };
 
 Button.propTypes = {

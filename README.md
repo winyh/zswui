@@ -14,7 +14,7 @@
 
 </div>
 
-从零开始构建的 React UI 组件库.实现了组件开发测试预览，文档撰写，从零配置 webpack，打包发布到 npm 一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
+从零开始构建的 React UI 组件库.实现了组件开发测试预览，文档撰写，从零配置 webpack@5，打包发布到 npm 一系列功能，详细教程请查看 [wiki](https://github.com/winyh/zswui/wiki)
 
 ### 安装
 
