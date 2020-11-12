@@ -3,9 +3,9 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import { PREFIX } from "../_util";
 
-console.log("input");
+console.log("card");
 
-class Input extends Component {
+class Card extends Component {
   constructor(props) {
     super(props);
   }
@@ -18,23 +18,21 @@ class Input extends Component {
   };
 
   render() {
-    const { type, disabled, onClick } = this.props;
-    const cls = classNames(`${PREFIX}-input`, `${PREFIX}-input-${type}`);
+    const { type, onClick, children } = this.props;
+    const cls = classNames(`${PREFIX}-card`, `${PREFIX}-card-${type}`);
 
-    return (
-      <input className={cls} onChange={this.handleChange} disabled={disabled} />
-    );
+    return <div className={cls}>{children}</div>;
   }
 }
 
 // 指定 props 的默认值：
-Input.defaultProps = {
+Card.defaultProps = {
   type: "default",
 };
 
-Input.propTypes = {
+Card.propTypes = {
   type: PropTypes.string,
   onClick: PropTypes.func,
 };
 
-export default Input;
+export default Card;

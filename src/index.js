@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.less";
-import { Button, Input } from "../lib/zswui";
+import { Button, Card, Input } from "../lib/zswui";
 
 ReactDOM.render(
   <div className="winyh">
@@ -10,7 +10,11 @@ ReactDOM.render(
       winyh
     </Button>
     <p>
-      <Input />
+      <Input onChange={() => console.log(1)} />
+    </p>
+
+    <p>
+      <Card>Card</Card>
     </p>
   </div>,
   document.getElementById("root")
